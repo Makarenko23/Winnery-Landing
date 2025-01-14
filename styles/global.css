@@ -13,14 +13,52 @@
     font-family: "Cormorant Infant", serif;
     font-style: normal;
     scroll-behavior: smooth;
+    --section-name-color: #bc6e44;
+    --section-heading-color: #2A2824;
+    --section-descr-color: #837D71;
+
 }
 
-p{
+.section-name{
+    font-size: 12px;
     font-family: "Spectral", serif;
     font-style: normal;
+    color: var(--section-name-color);
+    letter-spacing: 2.4px;
+    font-weight: 700;
+
+}
+.section-heading{
+    font-size: 38px;
+    margin: 20px 0 25px;
+    color: var(--section-heading-color);
+    font-weight: 500;
 }
 
-img {
+@media (min-width: 768px){
+    .section-heading{
+        font-size: 45px;
+    }
+}
+@media (min-width: 1024px){
+    .section-heading{
+        font-size: 52px;
+    }
+}
+
+.section-heading span{
+    font-style: italic;
+}
+.section-descr{
+    font-size: 19px;
+    font-family: "Spectral", serif;
+    font-style: normal;
+    color: var(--section-descr-color);
+    font-weight: 500;
+
+}
+
+/* img {
     display: block;
     max-width: 100%;
-  }
+  } */
