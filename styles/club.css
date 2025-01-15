@@ -1,0 +1,119 @@
+.club {
+    padding: 90px 24px;
+    text-align: center;
+    background: url(/img/texture.png);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+@media (min-width: 990px) {
+    .club{
+        padding: 110px 24px;
+    }
+}
+
+.club__container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.club__name {
+}
+
+.club__heading {
+}
+
+.club__descr {
+    margin-bottom: 45px;
+}
+.club__list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+}
+
+@media (min-width: 480px) {
+    .club__list{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 990px) {
+    .club__list{
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+}
+
+.club__item {
+    background-color: #fff;
+    padding: 31px 27px;
+}
+@media (min-width: 990px) {
+    .club__item{
+        max-width: 270px;
+        padding: 40px 30px;
+
+    }
+}
+
+.club__item-content{
+    /* max-width: 378px; */
+}
+.club__item-icon {
+    margin-bottom: 15px;
+}
+.club__item-icon img{
+    max-height: 50px;
+}
+@media (min-width: 480px) {
+    .club__item-icon img{
+        max-height: 70px;
+    }
+}
+.club__item-title {
+    font-size: 24px;
+    color: var(--section-heading-color);
+    font-style: italic;
+    font-weight: 500;
+    margin: 0 0 32px 0;
+    position: relative;
+}
+@media (min-width: 480px) {
+    .club__item-title{
+        font-size: 26px;
+    }
+}
+@media (min-width: 990px) {
+    .club__item-title{
+        font-size: 28px;
+    }
+}
+.club__item-title::after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 20%;
+    background-color: var(--section-name-color);
+    top: 45px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.club__item__descr {
+    color: var(--section-descr-color);
+    font-size: 17px;
+    font-family: "Spectral", serif;
+
+}
+.club__footer {
+    margin: 55px 0 0;
+}
+.club__footer-title {
+    color: var(--section-email-color);
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.club__footer-email {
+    color: var(--section-descr-color);
+    font-size: 17px;
+    font-weight: 500;
+}
