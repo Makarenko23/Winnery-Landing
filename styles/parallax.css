@@ -1,0 +1,33 @@
+.parallax {
+    background: url(/img/parallax.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 110px 0;
+}
+
+.parallax__card {
+    background-color: #fff;
+    padding: 31px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 24px;
+}
+@media (min-width: 768px) {
+    .parallax__card{
+        max-width: 470px;
+        width: 35%;
+        margin: 5% 18%;
+    }
+}
+.parallax__card-name {
+}
+
+.parallax__card-heading {
+}
+
+.parallax__card-descr {
+    font-size: 17px;
+    font-weight: 400;
+}
