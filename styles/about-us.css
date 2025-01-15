@@ -1,0 +1,112 @@
+.about-us {
+    padding: 90px 24px 30px;
+    background: url(/img/bg1.svg);
+    background-position: 50% 35%;
+    background-size: cover;
+
+}
+@media (min-width: 768px){
+    .about-us{
+        padding: 100px 32px 30px;
+    }
+}
+@media (min-width: 990px){
+    .about-us{
+        padding: 110px 32px 30px;
+    }
+}
+
+.about-us__top{
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 768px){
+    .about-us__top{
+        flex-direction: row;
+        gap: 60px;
+        align-items: end;
+    }
+}
+.about-us__left{
+    flex: 1;
+}
+/* .about-us__name {
+} */
+.about-us__heading {
+    margin-bottom: 60px;
+}
+@media (min-width: 768px) {
+    .about-us__heading{
+        margin-bottom: 0px;
+    }
+}
+.about-us__descr {
+    font-size: 17px;
+    font-weight: 400;
+    flex: 1;
+}
+.about-us__list {
+    margin-top: 45px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+@media (min-width: 768px){
+    .about-us__list{
+        flex-direction: row;
+    }
+}
+.about-us__item {
+    position: relative;
+    flex: 1;
+}
+.about-us__item-number {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+    color: var(--section-name-color);
+}
+@media (min-width: 768px){
+    .about-us__item-number{
+        font-size: 33px;
+    }
+}
+@media (min-width: 990px){
+    .about-us__item-number{
+        font-size: 36px;
+    }
+}
+.about-us__item-number::after{
+    position: absolute;
+    content: '';
+    width: 15%;
+    height: 2px;
+    background-color: rgba(84, 78, 76, 0.18);
+    top: 55%;
+    left: 0;
+    /* transform: translate(0%, -50%); */
+}
+.about-us__item-text {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Spectral", serif;
+    margin-top: 32px;
+    color: var(--section-descr-color);
+}
+/* .about-us__video {
+} */
+.about-us__img {
+    margin-top: 50px;
+}
+.about-us__img img{
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+@media (min-width:768px) {
+    .about-us__img img{
+        height: 500px;
+    }
+}
