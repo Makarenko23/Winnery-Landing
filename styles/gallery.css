@@ -1,0 +1,106 @@
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+@media (min-width: 480px){
+    .gallery{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 990px){
+    .gallery{
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: start;
+    }
+}
+.gallery__info {
+    padding: 60px 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+@media (min-width: 768px){
+    .gallery__info{
+        padding: 80px 58px;
+    }
+}
+@media (min-width: 990px){
+    .gallery__info{
+        padding: 120px 80px;
+    }
+}
+.gallery__info--1 {
+    background: url(/img/gallery_texture_1.svg);
+    background-position: 17.5% 58.33%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gallery__info--2 {
+    background: url(/img/gallery_texture_2.svg);
+    background-position: 85% 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gallery__info--3 {
+    background-color: var(--section-background-color);
+}
+.gallery__date {
+    font-size: 14px;
+    font-family: "Spectral", serif;
+    font-style: italic;
+    font-weight: 400;
+}
+.gallery__heading {
+    font-size: 24px;
+    margin: 20px 0;
+}
+@media (min-width: 480px) {
+    .gallery__heading{
+        font-size: 26px;
+    }
+}
+@media (min-width: 990px) {
+    .gallery__heading{
+        font-size: 28px;
+    }
+}
+.gallery__descr {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.gallery__link {
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: var(--section-name-color);
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Spectral", serif;
+    letter-spacing: 2.4px;
+}
+.gallery__img {
+    width: 100%;
+    aspect-ratio: 16 / 14;
+    overflow: hidden;
+}
+.gallery__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (min-width: 480px) {
+    .gallery__img{
+        height: 100%;        
+
+    }
+    .gallery__img img{
+        object-position: 15% 0%;
+    }
+}
+@media (min-width: 990px) {
+    .gallery__img{
+        aspect-ratio: 16 / 13;
+
+    }
+}
