@@ -4,8 +4,7 @@
     background-position: 32% 96%; */
     text-align: center;
     position: relative;
-    padding: 0 24px 90px;
-
+    padding: 0 23px 90px;
 }
 .background {
     position: absolute;
@@ -86,12 +85,19 @@
 @media (min-width: 768px){
     .main__list{
         flex-direction: row;
-        justify-content: space-between;
-        /* margin-bottom: 50px; */
+        gap: 0;
     }
 }
 .main__item {
     position: relative;
+
+}
+@media (min-width: 768px) {
+    .main__item{
+        margin: 0 30px;
+        text-align: start;
+        width: 100%;
+    }
 }
 .main__item::after{
     position: absolute;
@@ -108,9 +114,17 @@
     color: #fff;
     font-weight: 500;
 }
+.main__item-title span{
+    font-size: 18px;
+}
 @media (min-width: 768px) {
     .main__item-title {
-        font-size: 33px;
+        font-size: 26px;
+    }
+}
+@media (min-width: 840px) {
+    .main__item-title {
+        font-size: 30px;
     }
 }
 @media (min-width: 1024px) {
