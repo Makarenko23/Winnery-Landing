@@ -127,12 +127,13 @@
                                           the best of the region. Each bottle is crafted with passion and care. 
                 </div>
             </div>
-            <div class="choice-carousel">
-                <div class="choice-carousel__arrow choice-carousel__arrow-left">
-                    <img src="/img/arrow.svg" alt="arrow">
-                </div>
-                <ul class="choice-carousel__cards">
-                    <!-- <li class="choice-carousel__card">
+            <div class="choice-carousel swiper">
+                <div class="choice-carousel-container">
+                    <!-- <div class="choice-carousel__arrow choice-carousel__arrow-left">
+                        <img src="/img/arrow.svg" alt="arrow">
+                    </div> -->
+                <ul class="choice-carousel__cards swiper-wrapper">
+                    <li class="choice-carousel__card swiper-slide">
                         <div class="choice-carousel__card-img">
                             <img src="/img/wine3.png" alt="wine">
                         </div>
@@ -140,7 +141,7 @@
                         <div class="choice-carousel__card-descr">Vintage wine (1999)</div>
                         <a href="#" class="choice-carousel__card-btn btn">Tasting</a>
                     </li>
-                    <li class="choice-carousel__card">
+                    <li class="choice-carousel__card swiper-slide">
                         <div class="choice-carousel__card-img">
                             <img src="/img/wine4.png" alt="wine">
                         </div>
@@ -148,17 +149,30 @@
                         <div class="choice-carousel__card-descr">Fortified wine</div>
                         <a href="#" class="choice-carousel__card-btn btn">Tasting</a>
                     </li>
-                    <li class="choice-carousel__card">
+                    <li class="choice-carousel__card swiper-slide">
                         <div class="choice-carousel__card-img">
                             <img src="/img/wine1.png" alt="wine">
                         </div>
                         <div class="choice-carousel__card-title">EISWEIN</div>
                         <div class="choice-carousel__card-descr">Dessert wine</div>
                         <a href="#" class="choice-carousel__card-btn btn">Tasting</a>
-                    </li> -->
+                    </li>
+                    <li class="choice-carousel__card swiper-slide">
+                        <div class="choice-carousel__card-img">
+                            <img src="/img/wine2.png" alt="wine">
+                        </div>
+                        <div class="choice-carousel__card-title">Grenache Rosé</div>
+                        <div class="choice-carousel__card-descr">Vintage wine (2000)</div>
+                        <a href="#" class="choice-carousel__card-btn btn">Tasting</a>
+                    </li>
                 </ul>
-                <div class="choice-carousel__arrow choice-carousel__arrow-right">
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <!-- <div class="choice-carousel__arrow choice-carousel__arrow-right">
                     <img src="/img/arrow.svg" alt="arrow">
+                </div> -->
                 </div>
             </div>
         </div>
@@ -517,7 +531,7 @@
 </footer>
 
 <script src="/js/header.js"></script>
-<script src="/js/choice-carousel.js"></script>
+<!-- <script src="/js/choice-carousel.js"></script> -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="/js/swiper.js"></script>
 </body>

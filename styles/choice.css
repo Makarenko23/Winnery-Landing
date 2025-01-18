@@ -39,26 +39,29 @@
 }
 .choice-carousel__cards {
     list-style: none;
-    display: grid;
-    grid-template-columns: 1fr;
-    transition: transform 0.5s ease-in-out;
-}
-@media (min-width: 768px) {
-    .choice-carousel__cards {
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
-    }   
-}
-@media (min-width: 990px) {
-    .choice-carousel__cards {
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 30px;
-    }   
 }
 .choice-carousel__card{
-    display: none;
+    user-select: none;
 }
-.choice-carousel__card:first-child{
+.choice-carousel__card.swiper-slide{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    text-align: center;
+}
+
+/* .testimonials__item{
+    user-select: none;
+}
+.testimonials__item.swiper-slide{
+    display: flex;
+    justify-content: center;
+}
+.testimonials__item-container{
+    max-width: 740px;
+} */
+
+/* .choice-carousel__card:first-child{
     display: inline-block;
     text-align: center;
 
@@ -74,7 +77,7 @@
         display: inline-block;
         text-align: center;
     } 
-}
+} */
 .choice-carousel__card-img{
 
 }
@@ -94,6 +97,7 @@
     font-family: "Spectral", serif;
     font-weight: 700;
     margin-top: 20px;
+    text-transform: uppercase;
 }
 .choice-carousel__card-descr {
     color: var(--section-name-color);
