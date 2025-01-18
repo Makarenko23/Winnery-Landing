@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Winnery</title>
     <link rel="stylesheet" href="/styles/index.css">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 </head>
 <body>
 
@@ -246,64 +250,110 @@
 <!-- Testimonials -->
 
 <section class="testimonials">
-    <div class="testimonials__top">
-        <div class="testimonials__name section-name">~ Testimonials ~</div>
-        <div class="testimonials__heading section-heading">Our Lovely Clients <span>About Us</span>.</div>
-        <div class="testimonials__descr section-descr">Read the testimonials of our customers to find out why so many people visit us.</div>
-        <div class="testimonials__carousel">
-            <div class="testimonials__nav-button arrow-left">
-                <img src="" alt="">
-            </div>
-            <div class="testimonials__item">
-                <div class="testimonials__item-avatar">
-                    <img src="" alt="">
+    <div class="container">
+        <div class="testimonials__top">
+            <div class="testimonials__name section-name">~ Testimonials ~</div>
+            <div class="testimonials__heading section-heading">Our Lovely Clients <span>About Us</span>.</div>
+            <div class="testimonials__descr section-descr">Read the testimonials of our customers to find out why so many people visit us.</div>
+            <div class="testimonials__carousel swiper">
+                <div class="testimonials__carousel-wrapper">
+                    <!-- <div class="testimonials__nav-button testimonials__nav-button-left swiper-button-prev">
+                        <img src="/img/arrow.svg" alt="arrow">
+                    </div> -->
+                        <ul class="testimonials__list swiper-wrapper">
+                            <li class="testimonials__item swiper-slide">
+                                <div class="testimonials__item-container">
+                                    <div class="testimonials__item-avatar">
+                                        <img src="/img/testimonials/avatar1.png" alt="">
+                                    </div>
+                                    <div class="testimonials__item-name">Amanda Wilson</div>
+                                    <div class="testimonials__item-text">"I'm so happy for the opening of the Pinot Noir Winery. They have a tremendous
+                                                                        collection of the finest wines. We had a really great time there and will definitely
+                                                                        come back soon."
+                                    </div>
+                                    <div class="testimonials__item-date">December 15, 2022</div>
+                                </div>
+                            </li>
+                            <li class="testimonials__item swiper-slide">
+                                <div class="testimonials__item-container">
+                                    <div class="testimonials__item-avatar">
+                                        <img src="/img/testimonials/avatar2.png" alt="">
+                                    </div>
+                                    <div class="testimonials__item-name">Will Smith</div>
+                                    <div class="testimonials__item-text">"Visiting the winery was an amazing experience! The staff were so friendly and 
+                                                                         knowledgeable and the wine was delicious. I've already recommended Pinot Noir 
+                                                                         to my friends."
+                                    </div>
+                                    <div class="testimonials__item-date">January 04, 2023</div>
+                                </div>
+                            </li> 
+                            <li class="testimonials__item swiper-slide">
+                                <div class="testimonials__item-container">
+                                    <div class="testimonials__item-avatar">
+                                        <img src="/img/testimonials/avatar3.png" alt="">
+                                    </div>
+                                    <div class="testimonials__item-name">Alice Jackson</div>
+                                    <div class="testimonials__item-text">"The scenery was beautiful and it was the perfect way to spend an afternoon. 
+                                                                         I would highly recommend visiting this winery!"
+                                    </div>
+                                    <div class="testimonials__item-date">Mach 25, 2023</div>
+                                </div>
+                            </li> 
+                        </ul>
+                        <!-- <ul class="testimonials-indicator">
+                            <li class="testimonials-indicator__item"></li>
+                            <li class="testimonials-indicator__item testimonials-indicator__item--active"></li>
+                            <li class="testimonials-indicator__item"></li>
+                        </ul> -->
+                    <!-- <div class="testimonials__nav-button testimonials__nav-button-right swiper-button-next">
+                        <img src="/img/arrow.svg" alt="arrow">
+                    </div> -->
+
+                    <div class="swiper-pagination carousel__pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
-                <div class="testimonials__item-name"></div>
-                <div class="testimonials__item-text"></div>
-                <div class="testimonials__item-date"></div>
-            </div> 
-            <div class="testimonials__nav-button arrow-right">
-                <img src="" alt="">
             </div>
-            <ul class="testimonials-indicator">
-                <li class="testimonials-indicator__item"></li>
-                <li class="testimonials-indicator__item testimonials-indicator__item--active"></li>
-                <li class="testimonials-indicator__item"></li>
-            </ul>
         </div>
+        <ul class="testimonials-gallery">
+            <li class="testimonials-gallery__item">
+                <div class="testimonials-gallery__img">
+                    <img src="/img/testimonials/img-1.jpg" alt="testimonials-gallery">
+                </div>
+                <div class="testimonials-gallery__subtitle">Wine Tasting 2021</div>
+            </li>
+            <li class="testimonials-gallery__item">
+                <div class="testimonials-gallery__img">
+                    <img src="/img/testimonials/img-2.jpg" alt="testimonials-gallery">
+                </div>
+                <div class="testimonials-gallery__subtitle">The Best Vineyard 2022</div>
+            </li>
+            <li class="testimonials-gallery__item">
+                <div class="testimonials-gallery__img">
+                    <img src="/img/testimonials/img-3.jpg" alt="testimonials-gallery">
+                </div>
+                <div class="testimonials-gallery__subtitle">Grapes Variety 2022</div>
+            </li>
+            <li class="testimonials-gallery__item">
+                <div class="testimonials-gallery__img">
+                    <img src="/img/testimonials/img-4.jpg" alt="testimonials-gallery">
+                </div>
+                <div class="testimonials-gallery__subtitle">Wine Festival 2022</div>
+            </li>
+            <li class="testimonials-gallery__item">
+                <div class="testimonials-gallery__img">
+                    <img src="/img/testimonials/img-5.jpg" alt="testimonials-gallery">
+                </div>
+                <div class="testimonials-gallery__subtitle">Wine Cellar 2023</div>
+            </li>
+            <li class="testimonials-gallery__item">
+                <div class="testimonials-gallery__img">
+                    <img src="/img/testimonials/img-1.jpg" alt="testimonials-gallery">
+                </div>
+                <div class="testimonials-gallery__subtitle">Wine Tasting 2021</div>
+            </li>
+        </ul>
     </div>
-    <ul class="testimonials-gallery">
-        <li class="testimonials-gallery__item">
-            <div class="testimonials-gallery__img">
-                <img src="/img/testimonials/img-1.jpg" alt="testimonials-gallery">
-            </div>
-            <div class="testimonials-gallery__subtitle">Wine Tasting 2021</div>
-        </li>
-        <li class="testimonials-gallery__item">
-            <div class="testimonials-gallery__img">
-                <img src="/img/testimonials/img-2.jpg" alt="testimonials-gallery">
-            </div>
-            <div class="testimonials-gallery__subtitle">The Best Vineyard 2022</div>
-        </li>
-        <li class="testimonials-gallery__item">
-            <div class="testimonials-gallery__img">
-                <img src="/img/testimonials/img-3.jpg" alt="testimonials-gallery">
-            </div>
-            <div class="testimonials-gallery__subtitle">Grapes Variety 2022</div>
-        </li>
-        <li class="testimonials-gallery__item">
-            <div class="testimonials-gallery__img">
-                <img src="/img/testimonials/img-4.jpg" alt="testimonials-gallery">
-            </div>
-            <div class="testimonials-gallery__subtitle">Wine Festival 2022</div>
-        </li>
-        <li class="testimonials-gallery__item">
-            <div class="testimonials-gallery__img">
-                <img src="/img/testimonials/img-5.jpg" alt="testimonials-gallery">
-            </div>
-            <div class="testimonials-gallery__subtitle">Wine Cellar 2023</div>
-        </li>
-    </ul>
 </section>
 
 <!-- Parallax -->
@@ -468,5 +518,7 @@
 
 <script src="/js/header.js"></script>
 <script src="/js/choice-carousel.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="/js/swiper.js"></script>
 </body>
 </html>
