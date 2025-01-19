@@ -26,9 +26,6 @@
     z-index: -1;
 }
 
-.main__container{
-    /* padding: 0 24px 90px; */
-}
 @media (min-width: 768px)
 {
     .main{
@@ -46,14 +43,6 @@
     }
 }
 
-.main__content {
-
-}
-@media (min-width: 768px) {
-    .main__content{
-        /* margin: 200px 0; */
-    }
-}
 .main__name {
     color: var(--section-main-name-color);
 }

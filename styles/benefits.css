@@ -9,8 +9,8 @@
         justify-content: space-between;
     }
 }
-.benefits__img {
-}
+/* .benefits__img {
+} */
 .benefits__img img{
     max-width: 100%;
 }
@@ -47,12 +47,6 @@
         max-width: 630px;
     }
 }
-.benefits__name {
-}
-.benefits__heading {
-}
-.benefits__descr {
-}
 .benefits__items {
     list-style: none;
     margin-top: 25px;
@@ -65,9 +59,9 @@
     gap: 15px;
     margin: 5px;
 }
-.benefits__item-icon {
+/* .benefits__item-icon {
 
-}
+} */
 .benefits__item-icon img{
     max-height: 50px;
 
@@ -77,8 +71,8 @@
         max-height: 70px;
     }
 }
-.benefits__item-content {
-}
+/* .benefits__item-content {
+} */
 .benefits__item-title {
     font-size: 24px;
     font-style: italic;

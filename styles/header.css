@@ -18,14 +18,11 @@
         flex: 1;
     }
 }
-.header__nav--left {
-}
+
 .header__nav--right {
     top: 271px;
 }
-.header__nav-item {
 
-}
 .header__nav-link {
     color: rgba(255, 255, 255, 0.66);
     font-family: "Spectral", serif;
@@ -66,10 +63,6 @@
     .header__logo img{
         width: 146px;
     }
-}
-.logo {
-}
-.header__nav--right {
 }
 
 .header__burger{

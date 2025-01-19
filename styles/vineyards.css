@@ -1,12 +1,12 @@
-.vineyards {
-}
+/* .vineyards {
+} */
 @media (min-width: 768px) {
     .vineyards{
         display: flex;
     }
 }
-.vineyards__left {
-}
+/* .vineyards__left {
+} */
 @media (min-width: 768px) {
     .vineyards__left{
         width: 50%;
@@ -23,12 +23,7 @@
         max-width: 630px;
     }
 }
-.vineyards__name {
-}
-.vineyards__heading {
-}
-.vineyards__descr {
-}
+
 .vineyards__text {
     color: var(--section-descr-color);
     font-size: 17px;
@@ -58,8 +53,7 @@
     font-size: 17px;
     font-family: "Spectral", serif;
 }
-.vineyards__img {
-}
+
 @media (min-width: 768px) {
     .vineyards__img {
         width: 50%;

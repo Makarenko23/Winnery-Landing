@@ -17,13 +17,7 @@
     left: 0;
 
 }
-.testimonials__name {
-}
 
-.testimonials__heading {
-}
-.testimonials__descr {
-}
 .testimonials__carousel {
     display: flex;
     align-items: center;
@@ -153,8 +147,8 @@
 .testimonials-gallery__item {
     text-align: center;
 }
-.testimonials-gallery__img {
-}
+/* .testimonials-gallery__img {
+} */
 .testimonials-gallery__img img{
     /* width: 100%; */
     /* width: 100%;
@@ -163,8 +157,8 @@
     max-width: 100%;
     flex: 0.33; */
     width: 100%;
-    aspect-ratio: 1 / 1; /* Встановлює пропорції зображення 1:1 (квадрат) */
-    object-fit: cover; /* Обрізає зображення, щоб заповнити квадрат */
+    aspect-ratio: 1 / 1; 
+    object-fit: cover; 
     display: block;
 }
 .testimonials-gallery__subtitle {

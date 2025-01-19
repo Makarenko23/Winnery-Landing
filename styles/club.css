@@ -10,17 +10,10 @@
         padding: 110px 24px;
     }
 }
-
 .club__container{
     max-width: 1200px;
     margin: 0 auto;
 }
-.club__name {
-}
-
-.club__heading {
-}
-
 .club__descr {
     margin-bottom: 45px;
 }
@@ -55,9 +48,6 @@
     }
 }
 
-.club__item-content{
-    /* max-width: 378px; */
-}
 .club__item-icon {
     margin-bottom: 15px;
 }
