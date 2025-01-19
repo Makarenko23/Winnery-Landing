@@ -1,5 +1,5 @@
 .parallax {
-    background: url("img/parallax.jpg");
+    background: url("../img/parallax.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
