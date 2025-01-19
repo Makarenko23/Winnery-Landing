@@ -27,7 +27,7 @@
     }
 }
 .benefits__right {
-    background: url(/img/texture.png);
+    background: url("img/texture.png");
     background-position: 50% 50%;
     background-size: cover;
 }

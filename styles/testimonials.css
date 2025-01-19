@@ -1,7 +1,7 @@
 .testimonials {
     padding: 90px 24px;
     text-align: center;
-    background: url(/img/texture.png) 50% 50% / cover;
+    background: url("img/texture.png") 50% 50% / cover;
 }
 .testimonials__top {
     padding-bottom: 50px;

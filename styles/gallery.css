@@ -31,13 +31,13 @@
     }
 }
 .gallery__info--1 {
-    background: url(/img/gallery_texture_1.svg);
+    background: url("img/gallery_texture_1.svg");
     background-position: 17.5% 58.33%;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .gallery__info--2 {
-    background: url(/img/gallery_texture_2.svg);
+    background: url("img/gallery_texture_2.svg");
     background-position: 85% 40%;
     background-size: cover;
     background-repeat: no-repeat;
