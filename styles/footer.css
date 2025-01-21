@@ -82,6 +82,10 @@
     font-style: italic;
     font-weight: 500;
     color: #fff;
+    text-decoration: none;
+}
+.footer__contact__link:hover{
+    text-decoration: underline;
 }
 .footer__bottom {
     padding: 30px 24px;

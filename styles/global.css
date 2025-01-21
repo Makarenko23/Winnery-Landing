@@ -53,6 +53,10 @@
 .section-heading span{
     font-style: italic;
 }
+.section-heading span.section-heading__color{
+    color: var(--section-name-color);
+    font-style: normal;
+}
 .section-descr{
     font-size: 19px;
     font-family: "Spectral", serif;

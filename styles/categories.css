@@ -1,7 +1,7 @@
 .categories__top
 {
     padding: 90px 24px 0;
-    background: url("../img/wine-background.png") 0% 49% / cover;
+    background: url("../img/categories/wine-background.png") 0% 49% / cover;
 }
 @media (min-width: 768px){
     .categories__top{
@@ -29,7 +29,7 @@
     margin-top: 30px;
 }
 .categories__bottom{
-    background: url("../img/bg2.svg") 47% 89% / cover;
+    background: url("../img/categories/bg2.svg") 47% 89% / cover;
     padding: 0 24px 90px;
 }
 .categories__cards {

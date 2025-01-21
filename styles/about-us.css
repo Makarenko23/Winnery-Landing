@@ -1,6 +1,6 @@
 .about-us {
     padding: 90px 24px 30px;
-    background: url('../img/bg1.svg');
+    background: url('../img/about-us/bg1.svg');
     background-position: 50% 35%;
     background-size: cover;
 
@@ -50,7 +50,7 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
 }
 @media (min-width: 768px){
     .about-us__list{
